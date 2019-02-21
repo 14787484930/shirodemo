@@ -26,7 +26,7 @@ public class App
         //得到Subject用户名及密码创建token
         Subject subject = SecurityUtils.getSubject();
 
-        UsernamePasswordToken token = new UsernamePasswordToken("zhangsan","1234561");
+        UsernamePasswordToken token = new UsernamePasswordToken("lisi","123");
 
         try{
             subject.login(token);
